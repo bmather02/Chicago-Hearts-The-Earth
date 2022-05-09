@@ -40,9 +40,11 @@ div {
   width: 25vw;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: 4vh;
   background-color: rgba(0, 0, 0, 0.75);
   box-shadow: 0vh 0vh 2vh rgba(255, 255, 255, 0.2);
+  flex-wrap: wrap;
 }
 
 .header {
@@ -59,6 +61,21 @@ a {
   padding: 2.5vh 4vh;
 }
 
+p {
+    margin: 1vh;
+}
+
+h3 {
+    margin: 1vh;
+}
+
+h4 {
+    margin: 1vh 0 0 0;
+}
+
+h5{
+    margin: 0 0 1vh 0;
+}
 @media screen and (max-width: 600px) {
   body {
     background-image: url(./Chicago\ Mobile.png);
