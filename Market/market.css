@@ -6,7 +6,7 @@ body {
   max-width: 100vw;
   /* border: 1vh solid black; */
   background-color: azure;
-  background-image: url(./Chicago\ Desktop.png);
+  background-image: url(../Chicago\ Desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -90,7 +90,7 @@ h5{
 }
 @media screen and (max-width: 600px) {
   body {
-    background-image: url(./Chicago\ Mobile.png);
+    background-image: url(../Chicago\ Mobile.png);
   }
 
   div{
