@@ -30,8 +30,16 @@ function getFarmers(evt){
     $.ajax(URL).then(function(market){
         $name1.text(market.data[0][8]);
             //this accesses the 9th element in the 0 index of the array
-        $day1.text(market.data[0][10])
-        $time1.text(`${market.data[0][11]} - ${market.data[0][12]}`)
+        $day1.text(market.data[0][10]);
+        $time1.text(`${market.data[0][11]} - ${market.data[0][12]}`);
+        
+        $name2.text(market.data[1][8]);
+        $day2.text(market.data[1][10]);
+        $time2.text(`${market.data[1][11]} - ${market.data[1][12]}`);
+
+        $name3.text(market.data[2][8]);
+        $day3.text(market.data[2][10]);
+        $time3.text(`${market.data[2][11]} - ${market.data[2][12]}`)
     })
 }
 getFarmers()

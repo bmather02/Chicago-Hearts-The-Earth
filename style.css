@@ -39,12 +39,13 @@ div {
   height: 30vh;
   width: 25vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 4vh;
   background-color: rgba(0, 0, 0, 0.75);
   box-shadow: 0vh 0vh 2vh rgba(255, 255, 255, 0.2);
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .header {
@@ -67,6 +68,7 @@ p {
 
 h3 {
     margin: 1vh;
+    text-align: center;
 }
 
 h4 {
