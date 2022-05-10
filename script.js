@@ -40,6 +40,18 @@ function getFarmers(evt){
         $name3.text(market.data[2][8]);
         $day3.text(market.data[2][10]);
         $time3.text(`${market.data[2][11]} - ${market.data[2][12]}`)
+
+        $name4.text(market.data[3][8]);
+        $day4.text(market.data[3][10]);
+        $time4.text(`${market.data[3][11]} - ${market.data[3][12]}`);
+
+        $name5.text(market.data[4][8]);
+        $day5.text(market.data[4][10]);
+        $time5.text(`${market.data[4][11]} - ${market.data[4][12]}`);
+
+        $name6.text(market.data[5][8]);
+        $day6.text(market.data[5][10]);
+        $time6.text(`${market.data[5][11]} - ${market.data[5][12]}`);
     })
 }
 getFarmers()

@@ -25,6 +25,7 @@ nav {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.75);
   margin: 0 8vh;
+  justify-content: space-between;
 }
 
 main {
@@ -41,7 +42,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4vh;
+  margin: 3.9vh;
   background-color: rgba(0, 0, 0, 0.75);
   box-shadow: 0vh 0vh 2vh rgba(255, 255, 255, 0.2);
   flex-wrap: wrap;
@@ -59,27 +60,64 @@ a {
   color: inherit;
   text-decoration: none;
   /* margin: 0 2vh; */
-  padding: 2.5vh 4vh;
+  padding: 2.5vw 4vw;
+  font-size: 2.5vw;
 }
 
 p {
     margin: 1vh;
+    font-size: 1vw;
+}
+
+h2 {
+    font-size: 5vw
 }
 
 h3 {
     margin: 1vh;
     text-align: center;
+    font-size: 3vw;
 }
 
 h4 {
     margin: 1vh 0 0 0;
+    font-size: 2.5vw;
 }
 
 h5{
     margin: 0 0 1vh 0;
+    font-size: 1.5vw;
 }
 @media screen and (max-width: 600px) {
   body {
     background-image: url(./Chicago\ Mobile.png);
   }
+
+  div{
+      width: 38vw
+  }
+
+  a {
+      font-size: 3.75vw;
+  }
+
+  h2 {
+    font-size: 6vw
+}
+
+h3 {
+    margin: 1vh;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+h4 {
+    margin: 1vh 0 0 0;
+    font-size: 4vw;
+}
+
+h5{
+    margin: 0 0 1vh 0;
+    font-size: 3.5vw;
+}
 }
