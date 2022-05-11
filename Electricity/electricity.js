@@ -19,28 +19,28 @@ const $usage5 = $("#usage5");
 const $usage6 = $("#usage6");
 
 //Functions
-function getFarmers(evt){
-    $.ajax(URL).then(function(market){
-        $name1.text(market.data[0][8]);
-        $usage1.text(market.data[0][9]);
+function letThereBeLight(evt){
+    $.ajax(URL).then(function(zzt){
+        $name1.text(zzt.data[0][8]);
+        $usage1.text(`${zzt.data[0][9]} KWH/sqft`);
         
-        $name2.text(market.data[1][8]);
-        $usage2.text(market.data[1][9]);
+        $name2.text(zzt.data[1][8]);
+        $usage2.text(`${zzt.data[1][9]} KWH/sqft`);
 
-        $name3.text(market.data[2][8]);
-        $usage3.text(market.data[2][9]);
+        $name3.text(zzt.data[2][8]);
+        $usage3.text(`${zzt.data[2][9]} KWH/sqft`);
 
-        $name4.text(market.data[3][8]);
-        $usage4.text(market.data[3][9]);
+        $name4.text(zzt.data[3][8]);
+        $usage4.text(`${zzt.data[3][9]} KWH/sqft`);
 
-        $name5.text(market.data[4][8]);
-        $usage5.text(market.data[4][9]);
+        $name5.text(zzt.data[4][8]);
+        $usage5.text(`${zzt.data[4][9]} KWH/sqft`);
 
-        $name6.text(market.data[5][8]);
-        $usage6.text(market.data[5][9]);
+        $name6.text(zzt.data[5][8]);
+        $usage6.text(`${zzt.data[5][9]} KWH/sqft`);
     })
 }
-getFarmers()
+letThereBeLight();
 
 
 
