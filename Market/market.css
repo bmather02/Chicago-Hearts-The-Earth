@@ -20,7 +20,7 @@ body {
 nav {
   border: 0.05vh solid black;
   max-width: 90.5vw;
-  height: 10vh;
+  height: 8vw;
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.75);
@@ -63,6 +63,7 @@ a {
   /* margin: 0 2vh; */
   padding: 2.5vw 4vw;
   font-size: 2.5vw;
+  text-align: center;
 }
 
 p {
@@ -71,7 +72,8 @@ p {
 }
 
 h2 {
-    font-size: 5vw
+    font-size: 5vw;
+    margin: 1vw;
 }
 
 h3 {
@@ -92,6 +94,10 @@ h5{
 @media screen and (max-width: 600px) {
   body {
     background-image: url(../Chicago\ Mobile.png);
+  }
+
+  nav {
+    height: 13.5vw;
   }
 
   div{
