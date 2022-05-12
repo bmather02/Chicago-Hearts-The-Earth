@@ -40,7 +40,9 @@ function letThereBeLight(evt){
         $usage6.text(`${zzt.data[5][9]} KWH/sqft`);
     })
 }
-letThereBeLight();
+$("#button").on("click", function(){
+    letThereBeLight();
+});
 
 
 

@@ -54,7 +54,9 @@ function getFarmers(evt){
         $time6.text(`${market.data[5][11]} - ${market.data[5][12]}`);
     })
 }
-getFarmers()
+$("#button").on("click", function(){
+    getFarmers();
+});
 
 
 

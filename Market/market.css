@@ -52,9 +52,11 @@ div {
 
 .header {
   width: 90.5vw;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
 }
 
 a {
