@@ -59,7 +59,7 @@ div {
 
 .click {
   width: 90.5vw;
-  height: 12vh
+  height: 12vh;
 }
 
 a {
@@ -71,31 +71,30 @@ a {
 }
 
 p {
-    margin: 1vh;
-    font-size: 1vw;
+  margin: 1vh;
+  font-size: 1vw;
 }
 
 h2 {
-    font-size: 5vw;
-    margin: 1vw;
+  font-size: 5vw;
+  margin: 1vw;
 }
 
 h3 {
-    margin: 1vh;
-    text-align: center;
-    font-size: 3vw;
+  margin: 1vh;
+  text-align: center;
+  font-size: 3vw;
 }
 
 h4 {
-    margin: 1vh 0 0 0;
-    font-size: 2.5vw;
+  margin: 1vh 0 0 0;
+  font-size: 2.5vw;
 }
 
-h5{
-    margin: 0 0 1vh 0;
-    font-size: 1.5vw;
+h5 {
+  margin: 0 0 1vh 0;
+  font-size: 1.5vw;
 }
-
 
 @media screen and (max-width: 600px) {
   body {
@@ -106,31 +105,31 @@ h5{
     height: 13.5vw;
   }
 
-  div{
-      width: 38vw
+  div {
+    width: 38vw;
   }
 
   a {
-      font-size: 3.75vw;
+    font-size: 3.75vw;
   }
 
   h2 {
-    font-size: 6vw
-}
+    font-size: 6vw;
+  }
 
-h3 {
+  h3 {
     margin: 1vh;
     text-align: center;
     font-size: 4.5vw;
-}
+  }
 
-h4 {
+  h4 {
     margin: 1vh 0 0 0;
     font-size: 4vw;
-}
+  }
 
-h5{
+  h5 {
     margin: 0 0 1vh 0;
     font-size: 3.5vw;
-}
+  }
 }
