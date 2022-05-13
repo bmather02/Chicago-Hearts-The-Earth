@@ -4,9 +4,8 @@
 
 body {
   max-width: 100vw;
-  /* border: 1vh solid black; */
   background-color: azure;
-  background-image: url(../Chicago\ Desktop.png);
+  background-image: url(../Images/Chicago\ Desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -30,7 +29,6 @@ nav {
 
 main {
   max-width: 100vw;
-  /* border: 1vh solid green; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -52,17 +50,21 @@ div {
 
 .header {
   width: 90.5vw;
-  height: 40vh;
+  height: 26vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
 }
 
+.click {
+  width: 90.5vw;
+  height: 12vh
+}
+
 a {
   color: inherit;
   text-decoration: none;
-  /* margin: 0 2vh; */
   padding: 2.5vw 4vw;
   font-size: 2.5vw;
   text-align: center;
@@ -93,9 +95,11 @@ h5{
     margin: 0 0 1vh 0;
     font-size: 1.5vw;
 }
+
+
 @media screen and (max-width: 600px) {
   body {
-    background-image: url(../Chicago\ Mobile.png);
+    background-image: url(../Images/Chicago\ Mobile.png);
   }
 
   nav {
